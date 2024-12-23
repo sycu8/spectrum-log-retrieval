@@ -17,7 +17,7 @@ export default {
     
     if (request.method === 'GET') {
       // List logs endpoint
-      if (url.pathname === '/20241223/') {
+      if (url.pathname === '/api/logs/') {
         try {
           const prefix = url.searchParams.get('prefix') || '';
           const limit = parseInt(url.searchParams.get('limit')) || 100;
