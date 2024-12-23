@@ -3,6 +3,6 @@ main = "src/worker.js"
 compatibility_date = "2024-01-01"
 
 [[r2_buckets]]
-binding = "LOG_BUCKET"
+binding = "spectrum"
 bucket_name = "spectrum"
-preview_bucket_name = "logs-preview"
+preview_bucket_name = "spectrum"
